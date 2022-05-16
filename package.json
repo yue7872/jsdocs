@@ -1,25 +1,25 @@
 {
-  "name": "jsdoc",
-  "displayName": "Add jsdoc comments",
-  "description": "Adds jsdoc @param and @return tags for selected function signatures in JS and TS",
-  "icon": "images/comment_logo.svg",
+  "name": "jsdoc-quick",
+  "displayName": "add jsdoc quick",
+  "description": "jsdoc with right click & touchbar",
+  "icon": "images/logo_doc.png",
   "galleryBanner": {
     "color": "#5c2d91",
     "theme": "dark"
   },
   "license": "SEE LICENSE IN LICENSE.md",
   "bugs": {
-    "url": "https://github.com/Microsoft/vscode-comment/issues"
+    "url": "https://github.com/yue7872/jsdocs/issues"
   },
-  "homepage": "https://github.com/Microsoft/vscode-comment/blob/master/README.md",
+  "homepage": "https://github.com/yue7872/jsdocs/blob/master/README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Microsoft/vscode-comment.git"
+    "url": "https://github.com/yue7872/jsdocs.git"
   },
   "categories": [
     "Other"
   ],
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "blairyue",
   "engines": {
     "vscode": "0.10.x"
