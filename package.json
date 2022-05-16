@@ -1,5 +1,5 @@
 {
-  "name": "addDocComments",
+  "name": "jsdoc",
   "displayName": "Add jsdoc comments",
   "description": "Adds jsdoc @param and @return tags for selected function signatures in JS and TS",
   "icon": "images/comment_logo.svg",
@@ -19,22 +19,45 @@
   "categories": [
     "Other"
   ],
-  "version": "0.0.8",
-  "publisher": "stevencl",
+  "version": "0.0.1",
+  "publisher": "blairyue",
   "engines": {
     "vscode": "0.10.x"
   },
   "main": "./out/extension",
   "activationEvents": [
-    "onCommand:extension.addDocComments"
+    "*"
   ],
   "contributes": {
     "commands": [
       {
         "command": "extension.addDocComments",
-        "title": "Add Doc Comments"
+        "title": "💫"
+      },
+      {
+        "command": "extension.addDocComments2",
+        "title": "添加jsdoc注释"
       }
-    ]
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "extension.addDocComments2",
+          "group": "navigation"
+        }
+      ],
+      "touchBar": [
+        {
+          "command": "extension.addDocComments"
+        }
+      ],
+      "editor/title": [
+        {
+          "command": "extension.addDocComments",
+          "group": "navigation"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
