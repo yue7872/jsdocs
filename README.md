@@ -10,7 +10,8 @@ In a typescript or javascript  file, select a function signature, ideally one th
 
 ## 说明
 
-该插件fork自 https://github.com/microsoft/vscode-comment。自用。
+该插件fork自 https://github.com/microsoft/vscode-comment  
+自用。
 更新项:
 - 支持多种启动方式
 - 支持ts/js/vue项目

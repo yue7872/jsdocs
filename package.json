@@ -1,6 +1,6 @@
 {
   "name": "jsdoc-quick",
-  "displayName": "add jsdoc quick",
+  "displayName": "jsdoc simple",
   "description": "jsdoc with right click & touchbar",
   "icon": "images/logo_doc.png",
   "galleryBanner": {
@@ -19,7 +19,7 @@
   "categories": [
     "Other"
   ],
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "blairyue",
   "engines": {
     "vscode": "0.10.x"
